@@ -1,0 +1,230 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(29, 29, 29);
+}
+
+#header 
+{
+    background-color: grey;
+    position: fixed;
+    left: 0; right: 0; top: 0;
+    height: 75px;
+}
+
+#header img
+{
+    width: 250px;
+    height: 75px;
+    margin-left:5px;
+}
+#header2
+{
+    background-color: red;
+    position: fixed;
+    left: 0; right: 0; top: 0;
+    margin-top: 75px;
+    height: 2px;
+}
+
+nav
+{
+    font-family: chops;
+    src: url(../police/CHOPS___.TTF);
+    font-size: 22px;
+    width: 100%;
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 30%;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav ul li
+{
+    float: left;
+    width: 10%;
+    text-align: center;
+    position: relative;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover
+{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.sous
+{
+    display: none;
+    background-color: grey;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav > ul li:hover .sous
+{
+    display: block;
+}
+
+.sous li
+{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a
+{
+    padding: 20px;
+    border-bottom: none;
+}
+#insc
+{
+    z-index: 1;
+    display: flex;
+    margin-left: 90%;
+    
+}
+.marg a
+{
+    text-decoration: none;
+    color: black;
+}
+
+h1
+{
+    color: red;
+    text-decoration: underline;
+    font-family: chops;
+    src: url(../police/CHOPS___.TTF);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+table 
+{
+    border: medium solid black;
+    border-collapse: collapse;
+    width: 60%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(../images/grey-gradient-background.jpg) no-repeat;
+    background-size: 400%;
+}
+
+th 
+{
+    font-family: chops;
+    src: url(../police/CHOPS___.TTF);
+    font-size: x-large;
+    border-bottom: medium solid black;
+    width: 50%;
+    padding: 20px 60px 20px;
+}
+
+td
+{
+    font-family: saginaw;
+    src: url(../police/SaginawMedium.ttf);
+    font-size: x-large;
+    border-bottom: thin solid black;
+    width: 50%;
+    padding: 25px;
+    text-align: center;
+}
+
+.pos
+{
+    text-align: left;
+    padding:20px 60px 20px;
+}
+
+form
+{
+    margin-left: 1000px;
+}
+
+.flotte
+{
+    float:left;
+}
+
+.marg   
+{
+    margin-left: 22px;
+}
+
+.encre a
+{
+   background-color: rgba(0, 0, 0, 0.5);
+   font-size: x-large;
+   position: fixed;
+   margin-left: 95%;
+   margin-top:90px;
+   text-decoration: none;
+   color: black;
+}
+
+footer {
+    border-top: 2px solid red;
+    width: 100%;
+    background: white;
+}
+.contenu-footer {
+    width: 75%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 100px;
+}
+
+.bloc 
+{
+    width: 5%;
+    margin: 0 100px;
+}
+
+.footer-twitter img
+{
+    margin-top:40px;
+}
+
+.footer-facebook img
+{
+    margin-top:36px;
+}
+
+.footer-instagram img
+{
+    margin-top:55px;
+    margin-left:40px
+}
+
+.footer-youtube img
+{
+    margin-top:3px;
+    margin-left:30px
+}
